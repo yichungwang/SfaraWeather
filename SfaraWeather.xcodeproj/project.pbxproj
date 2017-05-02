@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70DDB516E6EC6D0B4F538324 /* Pods_SfaraWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD604E58ABCF23A6801565E /* Pods_SfaraWeather.framework */; };
+		BDBB5FA81EB695AE00E4CA52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB5FA71EB695AE00E4CA52 /* AppDelegate.swift */; };
+		BDBB5FAA1EB695AE00E4CA52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB5FA91EB695AE00E4CA52 /* ViewController.swift */; };
+		BDBB5FAD1EB695AE00E4CA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBB5FAB1EB695AE00E4CA52 /* Main.storyboard */; };
+		BDBB5FB01EB695AE00E4CA52 /* SfaraWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBB5FAE1EB695AE00E4CA52 /* SfaraWeather.xcdatamodeld */; };
+		BDBB5FB21EB695AE00E4CA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBB5FB11EB695AE00E4CA52 /* Assets.xcassets */; };
+		BDBB5FB51EB695AE00E4CA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBB5FB31EB695AE00E4CA52 /* LaunchScreen.storyboard */; };
+		BDBB5FBD1EB69BCF00E4CA52 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB5FBC1EB69BCF00E4CA52 /* Marker.swift */; };
+		BDBB5FC31EB6A5F000E4CA52 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB5FC21EB6A5F000E4CA52 /* WeatherCell.swift */; };
+		BDBB5FC51EB6A5FD00E4CA52 /* WebManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB5FC41EB6A5FD00E4CA52 /* WebManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05C81FA0A0F936852EBA36C6 /* Pods-SfaraWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SfaraWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-SfaraWeather/Pods-SfaraWeather.release.xcconfig"; sourceTree = "<group>"; };
+		5AD604E58ABCF23A6801565E /* Pods_SfaraWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SfaraWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D29848DEAA8FC4E3D6361F /* Pods-SfaraWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SfaraWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SfaraWeather/Pods-SfaraWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBB5FA41EB695AE00E4CA52 /* SfaraWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SfaraWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBB5FA71EB695AE00E4CA52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDBB5FA91EB695AE00E4CA52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDBB5FAC1EB695AE00E4CA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBB5FAF1EB695AE00E4CA52 /* SfaraWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SfaraWeather.xcdatamodel; sourceTree = "<group>"; };
+		BDBB5FB11EB695AE00E4CA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBB5FB41EB695AE00E4CA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDBB5FB61EB695AE00E4CA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBB5FBC1EB69BCF00E4CA52 /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		BDBB5FC21EB6A5F000E4CA52 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		BDBB5FC41EB6A5FD00E4CA52 /* WebManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBB5FA11EB695AE00E4CA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DDB516E6EC6D0B4F538324 /* Pods_SfaraWeather.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A59E16562475CF9185CCB05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90D29848DEAA8FC4E3D6361F /* Pods-SfaraWeather.debug.xcconfig */,
+				05C81FA0A0F936852EBA36C6 /* Pods-SfaraWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70C12A8B1A3D427EE40B5E79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD604E58ABCF23A6801565E /* Pods_SfaraWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBB5F9B1EB695AE00E4CA52 = {
+			isa = PBXGroup;
+			children = (
+				BDBB5FA61EB695AE00E4CA52 /* SfaraWeather */,
+				BDBB5FA51EB695AE00E4CA52 /* Products */,
+				6A59E16562475CF9185CCB05 /* Pods */,
+				70C12A8B1A3D427EE40B5E79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBB5FA51EB695AE00E4CA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB5FA41EB695AE00E4CA52 /* SfaraWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBB5FA61EB695AE00E4CA52 /* SfaraWeather */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB5FA71EB695AE00E4CA52 /* AppDelegate.swift */,
+				BDBB5FA91EB695AE00E4CA52 /* ViewController.swift */,
+				BDBB5FBC1EB69BCF00E4CA52 /* Marker.swift */,
+				BDBB5FC21EB6A5F000E4CA52 /* WeatherCell.swift */,
+				BDBB5FC41EB6A5FD00E4CA52 /* WebManager.swift */,
+				BDBB5FAB1EB695AE00E4CA52 /* Main.storyboard */,
+				BDBB5FB11EB695AE00E4CA52 /* Assets.xcassets */,
+				BDBB5FB31EB695AE00E4CA52 /* LaunchScreen.storyboard */,
+				BDBB5FB61EB695AE00E4CA52 /* Info.plist */,
+				BDBB5FAE1EB695AE00E4CA52 /* SfaraWeather.xcdatamodeld */,
+			);
+			path = SfaraWeather;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBB5FA31EB695AE00E4CA52 /* SfaraWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBB5FB91EB695AE00E4CA52 /* Build configuration list for PBXNativeTarget "SfaraWeather" */;
+			buildPhases = (
+				0858BD7BA67552BAFB00C6FD /* [CP] Check Pods Manifest.lock */,
+				BDBB5FA01EB695AE00E4CA52 /* Sources */,
+				BDBB5FA11EB695AE00E4CA52 /* Frameworks */,
+				BDBB5FA21EB695AE00E4CA52 /* Resources */,
+				2C0745E6131E4036A0DF7130 /* [CP] Embed Pods Frameworks */,
+				3D777386C4182FB97D7E7F46 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SfaraWeather;
+			productName = SfaraWeather;
+			productReference = BDBB5FA41EB695AE00E4CA52 /* SfaraWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBB5F9C1EB695AE00E4CA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Daydreamer;
+				TargetAttributes = {
+					BDBB5FA31EB695AE00E4CA52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJZP7J547Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDBB5F9F1EB695AE00E4CA52 /* Build configuration list for PBXProject "SfaraWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBB5F9B1EB695AE00E4CA52;
+			productRefGroup = BDBB5FA51EB695AE00E4CA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBB5FA31EB695AE00E4CA52 /* SfaraWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBB5FA21EB695AE00E4CA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBB5FB51EB695AE00E4CA52 /* LaunchScreen.storyboard in Resources */,
+				BDBB5FB21EB695AE00E4CA52 /* Assets.xcassets in Resources */,
+				BDBB5FAD1EB695AE00E4CA52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0858BD7BA67552BAFB00C6FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0745E6131E4036A0DF7130 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SfaraWeather/Pods-SfaraWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D777386C4182FB97D7E7F46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SfaraWeather/Pods-SfaraWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBB5FA01EB695AE00E4CA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBB5FAA1EB695AE00E4CA52 /* ViewController.swift in Sources */,
+				BDBB5FB01EB695AE00E4CA52 /* SfaraWeather.xcdatamodeld in Sources */,
+				BDBB5FC31EB6A5F000E4CA52 /* WeatherCell.swift in Sources */,
+				BDBB5FC51EB6A5FD00E4CA52 /* WebManager.swift in Sources */,
+				BDBB5FA81EB695AE00E4CA52 /* AppDelegate.swift in Sources */,
+				BDBB5FBD1EB69BCF00E4CA52 /* Marker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDBB5FAB1EB695AE00E4CA52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBB5FAC1EB695AE00E4CA52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBB5FB31EB695AE00E4CA52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBB5FB41EB695AE00E4CA52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBB5FB71EB695AE00E4CA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBB5FB81EB695AE00E4CA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBB5FBA1EB695AE00E4CA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D29848DEAA8FC4E3D6361F /* Pods-SfaraWeather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJZP7J547Y;
+				INFOPLIST_FILE = SfaraWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daydreamer.SfaraWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDBB5FBB1EB695AE00E4CA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C81FA0A0F936852EBA36C6 /* Pods-SfaraWeather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJZP7J547Y;
+				INFOPLIST_FILE = SfaraWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daydreamer.SfaraWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBB5F9F1EB695AE00E4CA52 /* Build configuration list for PBXProject "SfaraWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBB5FB71EB695AE00E4CA52 /* Debug */,
+				BDBB5FB81EB695AE00E4CA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBB5FB91EB695AE00E4CA52 /* Build configuration list for PBXNativeTarget "SfaraWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBB5FBA1EB695AE00E4CA52 /* Debug */,
+				BDBB5FBB1EB695AE00E4CA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDBB5FAE1EB695AE00E4CA52 /* SfaraWeather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDBB5FAF1EB695AE00E4CA52 /* SfaraWeather.xcdatamodel */,
+			);
+			currentVersion = BDBB5FAF1EB695AE00E4CA52 /* SfaraWeather.xcdatamodel */;
+			path = SfaraWeather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDBB5F9C1EB695AE00E4CA52 /* Project object */;
+}
